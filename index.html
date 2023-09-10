@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copas do Mundo do Brasil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-dark text-light p-4">
+        <div class="container">
+            <h1 class="display-4">Copas do Mundo do Brasil</h1>
+            <nav>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#historia">História</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#conquistas">Conquistas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#capitaes">Capitães</a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        <section id="historia" class="mb-4">
+            <h2 class="h4">História das Copas do Mundo do Brasil</h2>
+            <p>
+                O Brasil é uma das nações mais vitoriosas na história das Copas do Mundo de futebol. 
+                O país sediou o torneio em 1950 e venceu cinco vezes, nas seguintes edições:
+            </p>
+            <ul>
+                <li>1958 na Suécia (Capitão: Hilderaldo Bellini)</li>
+                <li>1962 no Chile (Capitão: Mauro Ramos)</li>
+                <li>1970 no México (Capitão: Carlos Alberto Torres)</li>
+                <li>1994 nos Estados Unidos (Capitão: Dunga)</li>
+                <li>2002 no Japão/Coreia do Sul (Capitão: Cafu)</li>
+            </ul>
+        </section>
+
+        <section id="conquistas" class="mb-4">
+            <h2 class="h4">Conquistas</h2>
+            <p>
+                O Brasil é conhecido por seu futebol habilidoso e pelas conquistas notáveis nas Copas do Mundo. 
+                A equipe nacional, muitas vezes chamada de "Seleção Canarinho", sempre foi uma das favoritas para vencer o torneio.
+            </p>
+            <p>
+                O país também detém o recorde de mais títulos conquistados na história do torneio, com um total de cinco vitórias.
+            </p>
+        </section>
+
+        <section id="capitaes" class="mb-4">
+            <h2 class="h4">Capitães da Seleção Brasileira</h2>
+            <p>
+                Cada vitória nas Copas do Mundo teve um capitão icônico liderando a equipe brasileira:
+            </p>
+            <ul>
+                <li>1958: Hilderaldo Bellini</li>
+                <li>1962: Mauro Ramos</li>
+                <li>1970: Carlos Alberto Torres</li>
+                <li>1994: Dunga</li>
+                <li>2002: Cafu</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            &copy; <span id="anoAtual"></span> Copas do Mundo do Brasil
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById("anoAtual").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
